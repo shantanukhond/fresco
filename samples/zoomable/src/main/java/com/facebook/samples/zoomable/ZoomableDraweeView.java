@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
  * <p>
  * Once the image loads, pinch-to-zoom and translation gestures are enabled.
  */
-public class ZoomableDraweeView extends DraweeView<GenericDraweeHierarchy>
+public class ZoomableDraweeView extends SimpleDraweeView
     implements ScrollingView {
 
   private static final Class<?> TAG = ZoomableDraweeView.class;
